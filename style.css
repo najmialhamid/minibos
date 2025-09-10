@@ -89,6 +89,26 @@ body {
   display: none;
 }
 
+.logo {
+  display: flex;
+  align-items: center; /* biar sejajar tengah */
+  gap: 8px;            /* jarak antara logo sama teks */
+}
+
+.logo-img {
+  width: 40px;   /* ukuran bulatan */
+  height: 40px;
+  border-radius: 50%; /* bikin bulat */
+  object-fit: cover;  /* biar gambar ga ketarik */
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;  /* sesuaikan sama desain */
+}
+
+
 /* hero section */
 .hero {
   min-height: 100vh;
