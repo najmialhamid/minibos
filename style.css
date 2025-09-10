@@ -42,11 +42,22 @@ body {
 }
 
 .navbar .navbar-logo {
+  display: flex;
+  align-items: center;
   font-size: 2rem;
   font-weight: 700;
   color: #fff;
   font-style: italic;
+  text-decoration: none;
 }
+
+.navbar .navbar-logo img {
+ max-height: 25px;   /* tinggi logo */
+  width: auto;    /* biar proporsional */
+  margin-right: 1px; /* jarak sama teks MINIBOS */
+  vertical-align: middle; /* biar sejajar sama teks */
+}
+
 
 .navbar .navbar-logo span {
   color: var(--primary);
@@ -89,24 +100,6 @@ body {
   display: none;
 }
 
-.logo {
-  display: flex;
-  align-items: center; /* biar sejajar tengah */
-  gap: 8px;            /* jarak antara logo sama teks */
-}
-
-.logo-img {
-  width: 40px;   /* ukuran bulatan */
-  height: 40px;
-  border-radius: 50%; /* bikin bulat */
-  object-fit: cover;  /* biar gambar ga ketarik */
-}
-
-.logo-text {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #fff;  /* sesuaikan sama desain */
-}
 
 
 /* hero section */
