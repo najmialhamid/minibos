@@ -351,6 +351,10 @@ footer.credit a {
   }
 }
 
+ .navbar .navbar-logo img {
+    max-height: 28px; /* lebih kecil biar seimbang sama teks */
+  }
+
 .about .row {
   flex-wrap: wrap;
 }
