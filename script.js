@@ -13,3 +13,12 @@ document.addEventListener('click', function(e) {
         navbarNav.classList.remove('active');
     }
 });
+
+window.addEventListener("scroll", function() {
+  const indicator = document.querySelector(".scroll-indicator");
+  if (window.scrollY > 50) {
+    indicator.classList.add("hide");
+  } else {
+    indicator.classList.remove("hide");
+  }
+});
