@@ -22,3 +22,11 @@ window.addEventListener("scroll", function() {
     indicator.classList.remove("hide");
   }
 });
+
+window.addEventListener("load", () => {
+  const preloader = document.getElementById("preloader");
+
+  setTimeout(() => {
+    preloader.classList.add("hidden");
+  }, 2500);
+});
