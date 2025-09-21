@@ -14,6 +14,7 @@ document.addEventListener('click', function(e) {
     }
 });
 
+// scroll funct
 window.addEventListener("scroll", function() {
   const indicator = document.querySelector(".scroll-indicator");
   if (window.scrollY > 50) {
